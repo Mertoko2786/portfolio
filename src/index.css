@@ -1,21 +1,38 @@
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  background: #0f172a;
-  color: #e5e7eb;
+.projects-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-main {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
+.project-card {
+  background: #020617;
+  padding: 1.5rem;
+  border-radius: 8px;
 }
 
-section {
-  margin-top: 3rem;
+.project-card h3 {
+  margin-top: 0;
 }
 
-footer {
-  margin-top: 4rem;
-  opacity: 0.6;
+.tech-list {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.tech-list li {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.project-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.project-links a {
+  color: #38bdf8;
+  text-decoration: none;
 }
